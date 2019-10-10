@@ -1,0 +1,12 @@
+# Work Timer
+A simple timer program to assist me in logging my hours worked for PSSL Ltd.
+
+**Descripton**  
+The timer starts automatically when the program is opened and has a single button interface (Start/Stop). If no input is detected  
+to 1m 50s a toast notification will appear prompting the user to provide some input if they are still at the computer working.  
+If no input is detected for a further 10s then the timer will pause. The next time some input is detected a toast notification will  
+appear prompting the usr to restart the timer if they are returning to work. After this second notification has appeared the system  
+must be idle for 3 minutes before it will prompt the user to restart the timer again. This is to prevent incessant notifications  
+from annoying the user.  
+
+Written in Python3 and Tkinter
